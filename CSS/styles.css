@@ -1,0 +1,144 @@
+/* Global styles
+----------------------*/ 
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+a {
+    color: red;
+}
+a.hover {
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+}
+.btn {
+    text-decoration: none;
+    background: red;
+    color:white;
+    padding: 10px;
+    display: inline-block;
+}
+/* Header and Footer
+-----------------------*/
+header, footer {
+    background: #282D42
+}
+/* Header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+header h1, header h2 {
+    color: #EDF2F4;
+}
+.profile-image {
+    border-radius: 50%;
+}
+.download {
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+#head-style {
+    color: #EDF2F4
+}
+nav {
+    text-align: center;
+    background: white;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Footer */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    
+    padding: 10px;
+    display: inline-block;
+}   
+
+/* Work Experience
+------------------------*/
+.experience {
+    background: #EDF2F4
+}
+
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type{
+    margin: 0;
+}
+
+
+/*Education
+-------------------------*/
+.educational {
+    background: linear-gradient(rgba(141, 153, 174, 0.6), rgba(141, 153, 174, 0.6)),
+                url(../images/education.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+
+/*Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+@media(max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-image {
+        width: 200px;
+    }
+    .download {
+        position: absolute;
+        right: 0;
+        bottom:0;
+}

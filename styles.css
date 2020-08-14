@@ -25,7 +25,7 @@ h3 {
     margin: 0;
 }
 a {
-    color: red;
+    color: lightblue;
 }
 a.hover {
     text-decoration: none;
@@ -52,6 +52,11 @@ header, footer {
 header {
     padding-top: 50px;
     position: relative;
+}
+.about {
+    background: linear-gradient(rgba(40, 45, 66, 0.6), rgba(40, 45, 66, 0.6)),
+                url(about1.jpg) no-repeat fixed;
+    background-size: cover;
 }
 header h1, header h2 {
     color: #EDF2F4;
@@ -85,16 +90,26 @@ nav a {
 footer {
     text-align: center;
 }
+
 .contact-info a {
     
     padding: 10px;
     display: inline-block;
-}   
-
+}
+.contact {
+    background: linear-gradient(rgba(40, 45, 66, 0.6), rgba(40, 45, 66, 0.6)),
+                url(Contact.jpg) no-repeat fixed;
+    background-size: cover;
+}
+#copyright {
+    font-weight: bold;
+}
 /* Work Experience
 ------------------------*/
 .experience {
-    background: #EDF2F4
+    background: linear-gradient(rgba(237, 242, 244, 0.8), rgba(237, 242, 244, 0.5)),
+                url(work1.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 h3 ~ p {
@@ -141,4 +156,5 @@ h3 ~ p {
         position: absolute;
         right: 0;
         bottom:0;
+    }
 }

@@ -14,11 +14,27 @@
 <body>
     <header role="banner" id="about" class="about">
         <a href="Résumé.pdf" class="btn download" download>Download PDF</a>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
+
+        <nav >
+            <ul class="nav-link">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
         <div class="content-wrap">
             <img class="profile-image col-narrow" src="Gabriel Isaac.png" alt="Gabriel Isaac">
@@ -31,7 +47,7 @@
                     and Docker) and Desktop development (Windows Form and WPF).</p>
             </div>
         </div>
-        
+
     </header>
 
     <main role="main">
@@ -76,27 +92,29 @@
             </div>
         </section>
     </main>
-    <footer class="contact">
+    <footer class="contact" id= "contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             <div class="contact-info">
                 <a href="iamkemical1@gmail.com"><i class="fa fa-envelope" aria-hidden="true">
-                    <span class="sr-only">Email</span></i></a>
+                        <span class="sr-only">Email</span></i></a>
                 <a href="https://www.iamkemical1.dev"><i class="fa fa-globe" aria-hidden="true">
-                    <span class="sr-only">Website</span></i></a>
+                        <span class="sr-only">Website</span></i></a>
                 <a href="https://www.twitter.com/iamkemical1"><i class="fa fa-twitter" aria-hidden="true">
-                    <span class="sr-only">Twitter</span></i></a>
+                        <span class="sr-only">Twitter</span></i></a>
                 <a href="https://www.linkedin.com/in/gabriel-i-657437110"><i class="fa fa-linkedin" aria-hidden="false">
-                    <span class="sr-only">LinkedIn</span></i></a>
+                        <span class="sr-only">LinkedIn</span></i></a>
                 <a href="https://m.facebook.com/IamKemical1"><i class="fa fa-facebook-official" aria-hidden="true">
-                    <span class="sr-only">Facebook</span></i></a>
-                <a href="https://github.com/Iamkemical" ><i class="fa fa-github" aria-hidden="true">
-                    <span class="sr-only">Github</span></i></a>
+                        <span class="sr-only">Facebook</span></i></a>
+                <a href="https://github.com/Iamkemical"><i class="fa fa-github" aria-hidden="true">
+                        <span class="sr-only">Github</span></i></a>
             </div>
 
             <p id="copyright">Copyright 2020 by Gabriel Isaac</p>
-        </div> 
+        </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
